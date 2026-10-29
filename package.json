@@ -1,0 +1,16 @@
+{
+  "name": "pdf-scripts",
+  "version": "1.0.0",
+  "description": "Some pdf utility scripts",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "add-blanks": "node interleave.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "pdf-lib": "^1.17.1"
+  }
+}
